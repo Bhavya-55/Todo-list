@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="./todo.css">
+    <script src="todo.js" defer></script>
+    <title>Todo app</title>
+</head>
+<body>
+    <h1>Bhavya's Todo-list</h1>
+    <form class="form-todo">
+        <input type="text" placeholder="Add todo"></input>
+        <button type="submit" class="todo-btn">
+            <i class="fas fa-plus-square"></i>
+        </button>
+    </form>
+    <ul class="todo-list">
+        <li hidden>
+            <span type="text">Do this do that1</span>
+            <div class="todo-btns">
+                <button class="complete-btn"><i class="fas fa-check done"></i></button><button class="trash-btn"><i class="fas fa-trash remove"></i></button>
+            </div>
+        </li>
+        
+    </ul>
+</body>
+</html>
